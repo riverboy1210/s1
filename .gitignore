@@ -3,5 +3,18 @@ node_modules/
 .agents/
 process-images.mjs
 serve.js
-final-check.jpeg
+nul
+
+# 스크린샷/임시 파일
+*.jpeg
+*.png
+!favicon.png
+!images/**
 *.log
+
+# 이전 작업 폴더
+images*/
+!images/
+유치원 대문 사진/
+*.jpg
+!images/**/*.jpg
