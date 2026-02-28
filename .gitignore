@@ -1,0 +1,7 @@
+node_modules/
+작업본/
+.agents/
+process-images.mjs
+serve.js
+final-check.jpeg
+*.log

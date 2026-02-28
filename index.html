@@ -3,27 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lilstep | 유치원</title>
+    <title>리틀스텝 영어유치원 | 영어로 여는 아이의 첫 세상</title>
+    <meta name="description" content="영어 몰입 교육과 따뜻한 돌봄, 리틀스텝 영어유치원. 원어민 교사와 함께하는 English Immersion 환경에서 자연스러운 영어와 바른 성장을 동시에." />
+
+    <!-- Open Graph / 카카오톡 미리보기 -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="리틀스텝 영어유치원 | 영어로 여는 아이의 첫 세상" />
+    <meta property="og:description" content="원어민·이중언어 교사와 함께하는 영어 몰입 환경. 놀이 중심 교육으로 균형 잡힌 성장을 돕습니다. Designed by 폴라스튜디오" />
+    <meta property="og:image" content="images/home/01.jpg" />
+    <meta property="og:image:width" content="1920" />
+    <meta property="og:image:height" content="1080" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="리틀스텝 영어유치원 | 영어로 여는 아이의 첫 세상" />
+    <meta name="twitter:description" content="원어민·이중언어 교사와 함께하는 영어 몰입 환경. Designed by 폴라스튜디오" />
+    <meta name="twitter:image" content="images/home/01.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- ========== HEADER ========== -->
     <header class="site-header" id="home">
       <div class="container nav-wrap">
-        <a href="#home" class="logo">Lilstep</a>
+        <a href="#home" class="logo">Little Step</a>
         <nav class="main-nav" aria-label="메인 내비게이션">
           <a href="#home">홈</a>
           <a href="#about">소개</a>
-          <a href="#programs">프로그램</a>
+          <a href="#services">프로그램</a>
+          <a href="#works">갤러리</a>
           <a href="#blog">블로그</a>
           <a href="#contact">문의</a>
         </nav>
-        <a href="#contact" class="btn btn-pill nav-cta">문의하기 <span aria-hidden="true">&rarr;</span></a>
+        <a href="#contact" class="btn btn-pill nav-cta">입학 상담 <span aria-hidden="true">&rarr;</span></a>
         <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-menu">
           <span></span><span></span><span></span>
         </button>
@@ -31,339 +58,352 @@
       <nav class="mobile-nav" id="mobile-menu" aria-label="모바일 내비게이션">
         <a href="#home">홈</a>
         <a href="#about">소개</a>
-        <a href="#programs">프로그램</a>
+        <a href="#services">프로그램</a>
+        <a href="#works">갤러리</a>
         <a href="#blog">블로그</a>
         <a href="#contact">문의</a>
-        <a href="#contact" class="btn btn-pill">문의하기 <span aria-hidden="true">&rarr;</span></a>
+        <a href="#contact" class="btn btn-pill">입학 상담 <span aria-hidden="true">&rarr;</span></a>
       </nav>
     </header>
 
     <main>
-      <section class="hero section-pad">
-        <div class="container">
-          <article class="hero-card">
-            <img src="https://placehold.co/1920x1080/2C5364/FFFFFF?text=Hero+Video+Area" alt="유치원 아이들" />
-            <div class="hero-content">
-              <h1>아이들의 꿈이 자라는 행복한 배움터</h1>
-              <div class="hero-bottom">
-                <p>놀이와 배움 속에서 자신감과 창의력을 키워갑니다.</p>
-                <a href="#programs" class="btn btn-pill">프로그램 보기 <span aria-hidden="true">&rarr;</span></a>
-              </div>
-            </div>
-          </article>
+      <!-- ========== HERO ========== -->
+      <section class="hero" id="hero">
+        <div class="hero-slider">
+          <div class="hero-slides">
+            <div class="hero-slide active"><img src="images/home/01.jpg" alt="유치원 생활 1" /></div>
+            <div class="hero-slide"><img src="images/home/02.jpg" alt="유치원 생활 2" /></div>
+            <div class="hero-slide"><img src="images/home/03.jpg" alt="유치원 생활 3" /></div>
+            <div class="hero-slide"><img src="images/home/04.jpg" alt="유치원 생활 4" /></div>
+            <div class="hero-slide"><img src="images/home/05.jpg" alt="유치원 생활 5" /></div>
+            <div class="hero-slide"><img src="images/home/06.jpg" alt="유치원 생활 6" /></div>
+            <div class="hero-slide"><img src="images/home/07.jpg" alt="유치원 생활 7" /></div>
+            <div class="hero-slide"><img src="images/home/08.jpg" alt="유치원 생활 8" /></div>
+            <div class="hero-slide"><img src="images/home/09.jpg" alt="유치원 생활 9" /></div>
+            <div class="hero-slide"><img src="images/home/10.jpg" alt="유치원 생활 10" /></div>
+            <div class="hero-slide"><img src="images/home/11.jpg" alt="유치원 생활 11" /></div>
+          </div>
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <h1>영어로 여는 첫 세상,<br>놀면서 배우는 우리 아이의 하루</h1>
+            <p>원어민·이중언어 교사와 함께하는 영어 몰입 환경에서 자연스러운 영어와 바른 성장을 동시에.</p>
+            <a href="#services" class="btn btn-pill hero-cta">교육 과정 보기 <span aria-hidden="true">&rarr;</span></a>
+          </div>
+          <div class="hero-indicators"></div>
         </div>
       </section>
 
+      <!-- ========== ABOUT ========== -->
       <section class="about section-pad" id="about">
-        <div class="container about-grid">
-          <div class="about-left">
-            <p class="eyebrow">소개</p>
-            <h2>작은 배움이 모여 큰 성장이 됩니다</h2>
-            <div class="feature-list">
-              <article class="feature-card">
-                <img src="https://placehold.co/78x76/FFF8ED/DC2525?text=Icon" alt="성장 아이콘" width="78" height="76" />
-                <div>
-                  <h3>작은 마음, 큰 성장</h3>
-                  <p>체험과 돌봄으로 튼튼한 기초를 만듭니다.</p>
-                </div>
-              </article>
-              <article class="feature-card">
-                <img src="https://placehold.co/78x76/FFF8ED/DC2525?text=Icon" alt="탐험 아이콘" width="78" height="76" />
-                <div>
-                  <h3>빛나는 탐험가들</h3>
-                  <p>질문하고 탐구하며 자신감을 키웁니다.</p>
-                </div>
-              </article>
-              <article class="feature-card">
-                <img src="https://placehold.co/78x76/FFF8ED/DC2525?text=Icon" alt="호기심 아이콘" width="78" height="76" />
-                <div>
-                  <h3>호기심이 꽃피는 아이들</h3>
-                  <p>창의적 공간에서 상상력이 자랍니다.</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="about-right" aria-label="주요 통계">
+        <div class="about-bg" style="background-image:url('images/about/about-bg.jpg')"></div>
+        <div class="about-overlay"></div>
+        <div class="container about-inner">
+          <p class="eyebrow">소개</p>
+          <h2>영어 몰입 교육과 따뜻한 돌봄,<br>아이 한 명 한 명을 소중히 키우는 리틀스텝</h2>
+          <p class="about-desc">원어민 교사와 함께하는 English Immersion 환경에서 듣기·말하기를 자연스럽게 익히고, 누리과정 기반의 놀이 중심 교육으로 균형 잡힌 성장을 돕습니다.</p>
+          <div class="stats-grid">
             <article class="stat-card">
               <h3><span class="counter" data-target="10">0</span>+</h3>
-              <p>전문 교사</p>
+              <p>원어민·이중언어 교사</p>
             </article>
             <article class="stat-card">
               <h3><span class="counter" data-target="15">0</span>+</h3>
-              <p>년의 신뢰</p>
-            </article>
-            <article class="stat-card">
-              <h3><span class="counter" data-target="100">0</span>%</h3>
-              <p>안전 관리</p>
+              <p>영어교육 경력(년)</p>
             </article>
             <article class="stat-card">
               <h3><span class="counter" data-target="1210">0</span>+</h3>
-              <p>등록 원생</p>
+              <p>누적 졸업생</p>
+            </article>
+            <article class="stat-card">
+              <h3><span class="counter" data-target="100">0</span>%</h3>
+              <p>학부모 만족도</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="joyful section-pad" id="programs">
-        <div class="container joyful-grid">
-          <div>
-            <h2>즐거운 환경에서 자신감 있게 배웁니다</h2>
-            <p>놀이와 체계를 조화롭게 결합하여 아이들이 즐겁게 성장합니다.</p>
-          </div>
-          <div class="joy-cards">
-            <article class="joy-card wide">
-              <img src="https://placehold.co/612x407/FFE4C4/12265A?text=612x407" alt="자신감 있는 배움" />
-              <div class="overlay">
-                <h3>자신감 있는 배움</h3>
-                <p>자세히 보기 <span aria-hidden="true">&rarr;</span></p>
-              </div>
-            </article>
-            <article class="joy-card">
-              <img src="https://placehold.co/612x407/FFE4C4/12265A?text=612x407" alt="15년 이상의 경험" />
-              <div class="overlay">
-                <h3>15년 이상의 경험</h3>
-              </div>
-            </article>
-            <article class="joy-card">
-              <img src="https://placehold.co/612x407/FFE4C4/12265A?text=612x407" alt="놀이와 성장" />
-              <div class="overlay">
-                <h3>놀이와 성장</h3>
-              </div>
-            </article>
-            <article class="joy-card">
-              <img src="https://placehold.co/612x407/FFE4C4/12265A?text=612x407" alt="창의적 발견" />
-              <div class="overlay">
-                <h3>창의적 발견</h3>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="grow section-pad">
-        <div class="container grow-grid">
-          <div class="grow-image-wrap">
-            <p class="eyebrow">소개</p>
-            <img src="https://placehold.co/660x946/FFDAB9/12265A?text=660x946" alt="선생님과 아이들" />
-          </div>
-          <div class="grow-content">
-            <h2>자신감과 호기심으로 함께 성장합니다</h2>
-            <p>매일의 배움과 놀이 속에서 아이들은 자기 속도로 성장합니다.</p>
-            <div class="accordion-group">
-              <article class="accordion-item active">
-                <button class="accordion-trigger" type="button" aria-expanded="true">
-                  일과 활동은 어떻게 성장을 돕나요?
-                </button>
-                <div class="accordion-content">
-                  <p>읽기, 운동, 미술, 사회성을 균형 있게 운영합니다.</p>
-                </div>
-              </article>
-              <article class="accordion-item">
-                <button class="accordion-trigger" type="button" aria-expanded="false">
-                  맞춤 교육은 어떻게 이루어지나요?
-                </button>
-                <div class="accordion-content">
-                  <p>개별 관찰을 통해 맞춤 지도와 소통을 합니다.</p>
-                </div>
-              </article>
-            </div>
-            <div class="mini-features">
-              <article class="mini-feature">
-                <img src="https://placehold.co/78x76/FFF8ED/DC2525?text=Icon" alt="안전 아이콘" width="78" height="76" />
-                <h3>안전한 공간</h3>
-              </article>
-              <article class="mini-feature">
-                <img src="https://placehold.co/78x76/FFF8ED/DC2525?text=Icon" alt="창의 놀이 아이콘" width="78" height="76" />
-                <h3>창의 놀이</h3>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="little section-pad">
+      <!-- ========== SERVICE ========== -->
+      <section class="services section-pad" id="services">
         <div class="container">
-          <h2>매일 한 뼘씩 자라는 우리 아이들</h2>
-          <div class="little-grid">
-            <img src="https://placehold.co/410x217/FFE4C4/12265A?text=410x217" alt="모둠 활동" class="tile-img" />
-            <article class="tile text-tile">
-              <h3>언어와 읽기</h3>
-              <p>이야기와 놀이로 소통 능력을 키웁니다.</p>
+          <p class="eyebrow">교육 프로그램</p>
+          <h2>영어와 놀이가 하나 되는<br>리틀스텝만의 교육 커리큘럼</h2>
+          <div class="service-grid">
+            <article class="service-card">
+              <div class="service-img-wrap"><img src="images/service/01.jpg" alt="English Immersion" /></div>
+              <div class="service-info">
+                <h3>English Immersion</h3>
+                <p>원어민 교사와 하루 종일 영어로 생활하며, 듣기·말하기·읽기를 자연스럽게 체득합니다.</p>
+              </div>
             </article>
-            <img src="https://placehold.co/155x150/FFDAB9/12265A?text=155x150" alt="수 놀이" class="tile-img small" />
-            <article class="tile link-tile">
-              <h3>바깥 놀이</h3>
-              <a href="#contact">자세히 보기 <span aria-hidden="true">&rarr;</span></a>
+            <article class="service-card">
+              <div class="service-img-wrap"><img src="images/service/02.jpg" alt="Phonics & Reading" /></div>
+              <div class="service-info">
+                <h3>Phonics & Reading</h3>
+                <p>체계적인 파닉스 수업으로 알파벳 소리를 익히고, 영어 동화 읽기로 문해력을 키웁니다.</p>
+              </div>
             </article>
-            <img src="https://placehold.co/410x440/FFE4C4/12265A?text=410x440" alt="미술 활동" class="tile-img tall" />
-            <article class="tile text-tile">
-              <h3>음악과 율동</h3>
-              <p>리듬과 춤으로 집중력을 키웁니다.</p>
+            <article class="service-card">
+              <div class="service-img-wrap"><img src="images/service/03.jpg" alt="Creative Arts" /></div>
+              <div class="service-info">
+                <h3>Creative Arts</h3>
+                <p>영어로 진행하는 미술·공예 수업에서 표현력과 창의력을 동시에 키웁니다.</p>
+              </div>
+            </article>
+            <article class="service-card">
+              <div class="service-img-wrap"><img src="images/service/04.jpg" alt="누리과정 통합" /></div>
+              <div class="service-info">
+                <h3>누리과정 통합</h3>
+                <p>국가 수준의 누리과정을 영어 몰입 환경과 자연스럽게 통합하여 균형 잡힌 교육을 제공합니다.</p>
+              </div>
+            </article>
+            <article class="service-card">
+              <div class="service-img-wrap"><img src="images/service/05.jpg" alt="Music & Movement" /></div>
+              <div class="service-info">
+                <h3>Music & Movement</h3>
+                <p>영어 노래와 율동으로 리듬감과 영어 표현을 자연스럽게 익히며 자신감을 키웁니다.</p>
+              </div>
+            </article>
+            <article class="service-card">
+              <div class="service-img-wrap"><img src="images/service/06.jpg" alt="Show & Tell" /></div>
+              <div class="service-info">
+                <h3>Show & Tell</h3>
+                <p>친구들 앞에서 영어로 발표하며 자기표현력과 자신감, 소통 능력을 함께 기릅니다.</p>
+              </div>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="discover section-pad" id="blog">
-        <div class="container discover-grid">
-          <div>
-            <h2>모든 아이의 따뜻한 시작</h2>
-            <ul class="checklist">
-              <li>따뜻하고 체계적인 교실 환경</li>
-              <li>가정과 소통하는 경험 많은 교사진</li>
-              <li>사회성과 학습을 균형 있게 키우는 교육</li>
-            </ul>
-            <blockquote>
-              "우리 딸에게 즐거운 제2의 집이 되었어요.
-              매일 아침 배우러 가는 걸 기대합니다."
-            </blockquote>
-            <div class="profile">
-              <img src="https://placehold.co/60x60/FFE4C4/12265A?text=Profile" alt="김서연 학부모" width="60" height="60" />
-              <strong>김서연 학부모</strong>
-            </div>
-          </div>
-          <div class="discover-media">
-            <img src="https://placehold.co/674x821/FFDAB9/12265A?text=674x821" alt="행복한 교실" />
-            <div class="badge">100%</div>
-            <div class="tags">
-              <span>안전한 환경</span>
-              <span>창의 교실</span>
-              <span>매일 알림</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="minds section-pad">
+      <!-- ========== WORKS / PORTFOLIO ========== -->
+      <section class="works section-pad" id="works">
         <div class="container">
-          <h2>우리 아이들의 빛나는 순간들</h2>
-          <div class="minds-grid">
-            <img src="https://placehold.co/630x525/FFE4C4/12265A?text=630x525" alt="미술 시간" />
-            <img src="https://placehold.co/630x566/FFDAB9/12265A?text=630x566" alt="교실 활동" />
-            <img src="https://placehold.co/630x525/FFE4C4/12265A?text=630x525" alt="바깥 놀이" />
+          <p class="eyebrow">갤러리</p>
+          <h2>아이들이 빛나는 순간을 기록합니다</h2>
+          <div class="works-filters">
+            <button class="filter-btn active" data-filter="all">전체</button>
+            <button class="filter-btn" data-filter="completion">수료식</button>
+            <button class="filter-btn" data-filter="filming">수업 일상</button>
+            <button class="filter-btn" data-filter="graduation">졸업</button>
+            <button class="filter-btn" data-filter="promotion">영어 행사</button>
+            <button class="filter-btn" data-filter="yearbook">앨범</button>
+          </div>
+          <div class="works-grid">
+            <!-- COMPLETION -->
+            <div class="work-item" data-category="completion"><img src="images/works/completion/01.jpg" alt="수료식 1" /></div>
+            <div class="work-item" data-category="completion"><img src="images/works/completion/02.jpg" alt="수료식 2" /></div>
+            <div class="work-item" data-category="completion"><img src="images/works/completion/03.jpg" alt="수료식 3" /></div>
+            <div class="work-item" data-category="completion"><img src="images/works/completion/04.jpg" alt="수료식 4" /></div>
+            <div class="work-item" data-category="completion"><img src="images/works/completion/05.jpg" alt="수료식 5" /></div>
+            <div class="work-item" data-category="completion"><img src="images/works/completion/06.jpg" alt="수료식 6" /></div>
+            <div class="work-item" data-category="completion"><img src="images/works/completion/07.jpg" alt="수료식 7" /></div>
+            <div class="work-item" data-category="completion"><img src="images/works/completion/08.jpg" alt="수료식 8" /></div>
+            <!-- FILMING -->
+            <div class="work-item" data-category="filming"><img src="images/works/filming/01.jpg" alt="수업 일상 1" /></div>
+            <div class="work-item" data-category="filming"><img src="images/works/filming/02.jpg" alt="수업 일상 2" /></div>
+            <div class="work-item" data-category="filming"><img src="images/works/filming/03.jpg" alt="수업 일상 3" /></div>
+            <div class="work-item" data-category="filming"><img src="images/works/filming/04.jpg" alt="수업 일상 4" /></div>
+            <div class="work-item" data-category="filming"><img src="images/works/filming/05.jpg" alt="수업 일상 5" /></div>
+            <div class="work-item" data-category="filming"><img src="images/works/filming/06.jpg" alt="수업 일상 6" /></div>
+            <div class="work-item" data-category="filming"><img src="images/works/filming/07.jpg" alt="수업 일상 7" /></div>
+            <div class="work-item" data-category="filming"><img src="images/works/filming/08.jpg" alt="수업 일상 8" /></div>
+            <div class="work-item" data-category="filming"><img src="images/works/filming/09.jpg" alt="수업 일상 9" /></div>
+            <!-- GRADUATION -->
+            <div class="work-item" data-category="graduation"><img src="images/works/graduation/01.jpg" alt="졸업 1" /></div>
+            <div class="work-item" data-category="graduation"><img src="images/works/graduation/02.jpg" alt="졸업 2" /></div>
+            <div class="work-item" data-category="graduation"><img src="images/works/graduation/03.jpg" alt="졸업 3" /></div>
+            <div class="work-item" data-category="graduation"><img src="images/works/graduation/04.jpg" alt="졸업 4" /></div>
+            <div class="work-item" data-category="graduation"><img src="images/works/graduation/05.jpg" alt="졸업 5" /></div>
+            <div class="work-item" data-category="graduation"><img src="images/works/graduation/06.jpg" alt="졸업 6" /></div>
+            <div class="work-item" data-category="graduation"><img src="images/works/graduation/07.jpg" alt="졸업 7" /></div>
+            <div class="work-item" data-category="graduation"><img src="images/works/graduation/08.jpg" alt="졸업 8" /></div>
+            <div class="work-item" data-category="graduation"><img src="images/works/graduation/09.jpg" alt="졸업 9" /></div>
+            <!-- PROMOTION -->
+            <div class="work-item" data-category="promotion"><img src="images/works/promotion/01.jpg" alt="영어 행사 1" /></div>
+            <div class="work-item" data-category="promotion"><img src="images/works/promotion/02.jpg" alt="영어 행사 2" /></div>
+            <div class="work-item" data-category="promotion"><img src="images/works/promotion/03.jpg" alt="영어 행사 3" /></div>
+            <div class="work-item" data-category="promotion"><img src="images/works/promotion/04.jpg" alt="영어 행사 4" /></div>
+            <div class="work-item" data-category="promotion"><img src="images/works/promotion/05.jpg" alt="영어 행사 5" /></div>
+            <div class="work-item" data-category="promotion"><img src="images/works/promotion/06.jpg" alt="영어 행사 6" /></div>
+            <div class="work-item" data-category="promotion"><img src="images/works/promotion/07.jpg" alt="영어 행사 7" /></div>
+            <div class="work-item" data-category="promotion"><img src="images/works/promotion/08.jpg" alt="영어 행사 8" /></div>
+            <div class="work-item" data-category="promotion"><img src="images/works/promotion/09.jpg" alt="영어 행사 9" /></div>
+            <!-- YEARBOOK -->
+            <div class="work-item" data-category="yearbook"><img src="images/works/yearbook/01.jpg" alt="앨범 1" /></div>
+            <div class="work-item" data-category="yearbook"><img src="images/works/yearbook/02.jpg" alt="앨범 2" /></div>
+            <div class="work-item" data-category="yearbook"><img src="images/works/yearbook/03.jpg" alt="앨범 3" /></div>
+            <div class="work-item" data-category="yearbook"><img src="images/works/yearbook/04.jpg" alt="앨범 4" /></div>
+            <div class="work-item" data-category="yearbook"><img src="images/works/yearbook/05.jpg" alt="앨범 5" /></div>
+            <div class="work-item" data-category="yearbook"><img src="images/works/yearbook/06.jpg" alt="앨범 6" /></div>
+            <div class="work-item" data-category="yearbook"><img src="images/works/yearbook/07.jpg" alt="앨범 7" /></div>
+            <div class="work-item" data-category="yearbook"><img src="images/works/yearbook/08.jpg" alt="앨범 8" /></div>
+            <div class="work-item" data-category="yearbook"><img src="images/works/yearbook/09.jpg" alt="앨범 9" /></div>
+          </div>
+          <div class="works-more-wrap">
+            <button class="btn btn-outline works-more-btn">더 보기 <span aria-hidden="true">&darr;</span></button>
           </div>
         </div>
       </section>
 
-      <section class="learn section-pad">
-        <div class="container learn-grid">
-          <div>
-            <h2>리듬과 체계 속에서 즐겁게 배웁니다</h2>
-            <img src="https://placehold.co/410x313/FFDAB9/12265A?text=410x313" alt="소그룹 수업" />
+      <!-- ========== BLOG ========== -->
+      <section class="blog section-pad" id="blog">
+        <div class="container">
+          <p class="eyebrow">블로그</p>
+          <h2>리틀스텝 영어유치원 소식</h2>
+          <div class="blog-grid">
+            <article class="blog-card">
+              <div class="blog-img-wrap"><img src="images/blog/01.jpg" alt="English Speech Day" /></div>
+              <div class="blog-info">
+                <span class="blog-tag">원 소식</span>
+                <h3>2025 English Speech Day 현장 스케치</h3>
+                <time datetime="2025-12-15">2025.12.15</time>
+              </div>
+            </article>
+            <article class="blog-card">
+              <div class="blog-img-wrap"><img src="images/blog/02.jpg" alt="영어 몰입 교육" /></div>
+              <div class="blog-info">
+                <span class="blog-tag">영어 교육</span>
+                <h3>영어 몰입 환경, 아이들은 어떻게 자연스럽게 배울까?</h3>
+                <time datetime="2025-11-20">2025.11.20</time>
+              </div>
+            </article>
+            <article class="blog-card">
+              <div class="blog-img-wrap"><img src="images/blog/03.jpg" alt="Halloween Party" /></div>
+              <div class="blog-info">
+                <span class="blog-tag">행사 안내</span>
+                <h3>Halloween Party & 가을 현장학습 안내</h3>
+                <time datetime="2025-10-08">2025.10.08</time>
+              </div>
+            </article>
+            <article class="blog-card">
+              <div class="blog-img-wrap"><img src="images/blog/04.jpg" alt="English Open Class" /></div>
+              <div class="blog-info">
+                <span class="blog-tag">학부모 참여</span>
+                <h3>English Open Class 참관수업 후기</h3>
+                <time datetime="2025-09-12">2025.09.12</time>
+              </div>
+            </article>
+            <article class="blog-card">
+              <div class="blog-img-wrap"><img src="images/blog/05.jpg" alt="Storybook Reading" /></div>
+              <div class="blog-info">
+                <span class="blog-tag">원 생활</span>
+                <h3>Storybook Reading 프로젝트 — 우리가 만든 영어 동화</h3>
+                <time datetime="2025-08-05">2025.08.05</time>
+              </div>
+            </article>
+            <article class="blog-card">
+              <div class="blog-img-wrap"><img src="images/blog/06.jpg" alt="건강 관리 안내" /></div>
+              <div class="blog-info">
+                <span class="blog-tag">건강·안전</span>
+                <h3>감염병 예방 안내 및 건강 관리 팁</h3>
+                <time datetime="2025-07-18">2025.07.18</time>
+              </div>
+            </article>
           </div>
-          <img src="https://placehold.co/520x681/FFE4C4/12265A?text=520x681" alt="일과 활동" class="learn-center" />
-          <aside class="schedule" aria-label="하루 일과표">
-            <h3>하루 일과표</h3>
-            <ul>
-              <li><span>오전 8:00</span> 등원 및 자유놀이</li>
-              <li><span>오전 9:00</span> 모둠 활동 및 동화</li>
-              <li><span>오전 10:30</span> 바깥 놀이</li>
-              <li><span>오후 1:00</span> 창의 학습</li>
-              <li><span>오후 3:00</span> 정리 및 하원</li>
-            </ul>
-            <a href="#contact" class="btn btn-pill">방문 예약 <span aria-hidden="true">&rarr;</span></a>
-          </aside>
         </div>
       </section>
 
+      <!-- ========== CLIENTS ========== -->
+      <section class="clients section-pad" id="clients">
+        <div class="container">
+          <h2>함께하는 교육 파트너</h2>
+          <p class="clients-sub">국내외 교육 기관과 함께 글로벌 수준의 영어 교육을 만들어갑니다</p>
+          <div class="client-grid">
+            <div class="client-item"><img src="images/client/01.jpg" alt="협력 기관 1" /></div>
+            <div class="client-item"><img src="images/client/02.jpg" alt="협력 기관 2" /></div>
+            <div class="client-item"><img src="images/client/03.jpg" alt="협력 기관 3" /></div>
+            <div class="client-item"><img src="images/client/04.jpg" alt="협력 기관 4" /></div>
+            <div class="client-item"><img src="images/client/05.jpg" alt="협력 기관 5" /></div>
+            <div class="client-item"><img src="images/client/06.jpg" alt="협력 기관 6" /></div>
+            <div class="client-item"><img src="images/client/08.jpg" alt="협력 기관 7" /></div>
+            <div class="client-item"><img src="images/client/09.jpg" alt="협력 기관 8" /></div>
+            <div class="client-item"><img src="images/client/10.jpg" alt="협력 기관 9" /></div>
+            <div class="client-item"><img src="images/client/11.jpg" alt="협력 기관 10" /></div>
+            <div class="client-item"><img src="images/client/12.jpg" alt="협력 기관 11" /></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== TESTIMONIALS ========== -->
       <section class="testimonials section-pad">
-        <div class="container">
+        <div class="testimonials-bg" style="background-image:url('images/about/quote-bg.jpg')"></div>
+        <div class="testimonials-overlay"></div>
+        <div class="container testimonials-inner">
           <h2>학부모 후기</h2>
-        </div>
-        <div class="marquee-wrap" aria-label="학부모 후기 슬라이더">
-          <div class="marquee-track">
+          <div class="testimonial-cards">
             <article class="quote-card">
-              <p class="stars">★★★★★</p>
-              <p>"아이가 자신감 있고 호기심 많은 아이로 자랐어요."</p>
-              <div class="profile"><img src="https://placehold.co/60x60/FFE4C4/12265A?text=Profile" alt="박준혁 학부모" /><strong>박준혁 학부모</strong></div>
-            </article>
-            <article class="quote-card">
-              <p class="stars">★★★★★</p>
-              <p>"선생님들이 따뜻하고 세심해서 믿음이 갑니다."</p>
-              <div class="profile"><img src="https://placehold.co/60x60/FFE4C4/12265A?text=Profile" alt="김서연 학부모" /><strong>김서연 학부모</strong></div>
+              <p class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <p class="quote-text">"영어를 억지로 시킨 적이 없는데, 집에서 영어 노래를 흥얼거리고 간단한 문장을 말해요. 자연스러운 환경이 달라요."</p>
+              <div class="quote-author">
+                <strong>박준혁 어머니</strong>
+                <span>7세반 학부모</span>
+              </div>
             </article>
             <article class="quote-card">
-              <p class="stars">★★★★★</p>
-              <p>"재미와 체계가 잘 잡혀 있어요. 보낼 수 있어 감사합니다."</p>
-              <div class="profile"><img src="https://placehold.co/60x60/FFE4C4/12265A?text=Profile" alt="이지민 학부모" /><strong>이지민 학부모</strong></div>
+              <p class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <p class="quote-text">"원어민 선생님과 한국인 선생님이 함께 계셔서 안심이에요. 알림장도 영어·한국어로 꼼꼼하게 보내주세요."</p>
+              <div class="quote-author">
+                <strong>김서연 어머니</strong>
+                <span>6세반 학부모</span>
+              </div>
             </article>
-            <article class="quote-card" aria-hidden="true">
-              <p class="stars">★★★★★</p>
-              <p>"아이가 자신감 있고 호기심 많은 아이로 자랐어요."</p>
-              <div class="profile"><img src="https://placehold.co/60x60/FFE4C4/12265A?text=Profile" alt="박준혁 학부모" /><strong>박준혁 학부모</strong></div>
-            </article>
-            <article class="quote-card" aria-hidden="true">
-              <p class="stars">★★★★★</p>
-              <p>"선생님들이 따뜻하고 세심해서 믿음이 갑니다."</p>
-              <div class="profile"><img src="https://placehold.co/60x60/FFE4C4/12265A?text=Profile" alt="김서연 학부모" /><strong>김서연 학부모</strong></div>
-            </article>
-            <article class="quote-card" aria-hidden="true">
-              <p class="stars">★★★★★</p>
-              <p>"재미와 체계가 잘 잡혀 있어요. 보낼 수 있어 감사합니다."</p>
-              <div class="profile"><img src="https://placehold.co/60x60/FFE4C4/12265A?text=Profile" alt="이지민 학부모" /><strong>이지민 학부모</strong></div>
-            </article>
-            <article class="quote-card" aria-hidden="true">
-              <p class="stars">★★★★★</p>
-              <p>"아이가 자신감 있고 호기심 많은 아이로 자랐어요."</p>
-              <div class="profile"><img src="https://placehold.co/60x60/FFE4C4/12265A?text=Profile" alt="박준혁 학부모" /><strong>박준혁 학부모</strong></div>
-            </article>
-            <article class="quote-card" aria-hidden="true">
-              <p class="stars">★★★★★</p>
-              <p>"선생님들이 따뜻하고 세심해서 믿음이 갑니다."</p>
-              <div class="profile"><img src="https://placehold.co/60x60/FFE4C4/12265A?text=Profile" alt="김서연 학부모" /><strong>김서연 학부모</strong></div>
-            </article>
-            <article class="quote-card" aria-hidden="true">
-              <p class="stars">★★★★★</p>
-              <p>"재미와 체계가 잘 잡혀 있어요. 보낼 수 있어 감사합니다."</p>
-              <div class="profile"><img src="https://placehold.co/60x60/FFE4C4/12265A?text=Profile" alt="이지민 학부모" /><strong>이지민 학부모</strong></div>
+            <article class="quote-card">
+              <p class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <p class="quote-text">"파닉스 수업 덕분에 영어 동화를 혼자 읽기 시작했어요. 놀이처럼 배우니까 아이가 영어를 좋아하게 됐어요."</p>
+              <div class="quote-author">
+                <strong>이지민 어머니</strong>
+                <span>졸업생 학부모</span>
+              </div>
             </article>
           </div>
         </div>
       </section>
     </main>
 
+    <!-- ========== FOOTER ========== -->
     <footer class="site-footer" id="contact">
       <section class="footer-cta">
         <div class="container footer-cta-wrap">
-          <h2>우리 아이의 행복한 배움을 시작해보세요</h2>
-          <a href="#contact" class="btn btn-pill">문의하기 <span aria-hidden="true">&rarr;</span></a>
+          <h2>영어로 여는 첫 세상, 리틀스텝과 함께 시작해보세요</h2>
+          <a href="#contact" class="btn btn-pill">입학 상담 신청 <span aria-hidden="true">&rarr;</span></a>
         </div>
       </section>
       <div class="container footer-grid">
         <div>
-          <a href="#home" class="logo">Lilstep</a>
+          <a href="#home" class="logo">Little Step</a>
           <p>서울시 강남구 역삼동 123-45</p>
           <p>02-1234-5678</p>
-          <p>hello@lilstep.com</p>
+          <p>hello@littlestep.kr</p>
         </div>
         <div>
           <h3>바로가기</h3>
           <a href="#home">홈</a>
           <a href="#about">소개</a>
-          <a href="#programs">프로그램</a>
+          <a href="#services">프로그램</a>
+          <a href="#works">갤러리</a>
           <a href="#blog">블로그</a>
         </div>
         <div>
           <h3>안내</h3>
-          <a href="#">개인정보처리방침</a>
-          <a href="#">이용약관</a>
+          <a href="#">입학 안내</a>
+          <a href="#">교육 과정</a>
+          <a href="#">하루 일과</a>
+          <a href="#">급식 안내</a>
           <a href="#">오시는 길</a>
-          <a href="#">자주 묻는 질문</a>
         </div>
         <div>
-          <h3>소식받기</h3>
-          <p>행사, 프로그램, 입학 소식을 받아보세요.</p>
-          <a href="mailto:hello@lilstep.com">hello@lilstep.com</a>
+          <h3>문의</h3>
+          <p>입학 상담, 영어 프로그램, 방문 일정을 안내해드립니다.</p>
+          <a href="mailto:hello@littlestep.kr">hello@littlestep.kr</a>
           <div class="socials" aria-label="소셜 링크">
             <a href="#" aria-label="인스타그램">인스타그램</a>
-            <a href="#" aria-label="페이스북">페이스북</a>
             <a href="#" aria-label="유튜브">유튜브</a>
+            <a href="#" aria-label="블로그">블로그</a>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
         <div class="container">
-          <p>&copy; 2026 Lilstep. 즐거운 유아교육을 위해.</p>
+          <p>&copy; 2026 Little Step 영어유치원. 영어로 여는 아이의 첫 세상. &nbsp;|&nbsp; Designed by <strong>폴라스튜디오</strong></p>
         </div>
       </div>
     </footer>
